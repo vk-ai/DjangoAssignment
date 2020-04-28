@@ -71,7 +71,6 @@ def shipment_api(headers, url, payload):
 def get_shipments(method, seller_profile, access_token):
     page_num = 1
     payload = {}
-    import ipdb;ipdb.set_trace()
     while True:
         headers = {
             'Content-Type': 'application/json',
